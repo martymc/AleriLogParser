@@ -3,14 +3,13 @@
 Aleri Streaming Platform
 Production license issued to:
 
-xxxxxxxx xx - xxxxxxxxxx (xxxxxxxxxx)
-60 xxxxxxxx xxxxx,
+XXXXXXXXXX XX - XXXXXXXXX (XX XXXXXXXX XXXXXX)
+60 XXXXXXXXXX St,
 London
-UK, xxxx xxx
-Contact: xxxx.xxxx@xxxx.com, xxxx.xxxx@xxxx.com, xxxx.xxxx@xxxx.com
+UK, XXXX XXX
+Contact: XXXXX.XXXXXXX@XXXXXXXXXXX.com, XXXXX.XXXXX@XXXXXXXXXXX.com, XXXXX.XXXXXX@XXXXXXXXXXX.com
 
-Use of this software is subject to the license agreement between Aleri Inc. and xxxxxxxxxxx xx - xxxxxx (xx xxxx
-xx xxxx); all other use is prohibited.
+Use of this software is subject to the license agreement between Aleri Inc. and XXXXXXXXXXX XX - XXXXXXXXX (XX XXXXXXXX XXXXXX); all other use is prohibited.
 
 This Production license does not expire.
 
@@ -19,8 +18,7 @@ This Production license does not expire.
 [SP-06-114039] (0.036) sp(16692) Platform(ln7p4818apx)::XML Model Version: 3.0
 [SP-05-120060] (0.037) sp(16692) LogStore(LogStore)::initialize() -- setting metadata checpointing at 10000 records
 [SP-05-120061] (0.037) sp(16692) LogStore(LogStore)::initialize() -- setting the reserve size at 20%.
-[SP-06-146002] (0.051) sp(16692) InputWindow::InputWindow()  built an Input Window of type: time, istream: LogMessag
-eIn, value: 172800, slack: 1.
+[SP-06-146002] (0.051) sp(16692) InputWindow::InputWindow()  built an Input Window of type: time, istream: LogMessageIn, value: 172800, slack: 1.
 [SP-02-135048] (0.055) sp(16692) Platform::main() -- Platform is running without any authentication.
 [SP-06-114017] (0.388) sp(16692) Platform(ln7p4818apx)::initialize() -- initializing...
 [SP-06-131018] (0.391) sp(16692) SourceStream(VolIn)::signature is BD5CF75F702A9E3D4EFF76A928EF1543.
@@ -30,38 +28,65 @@ eIn, value: 172800, slack: 1.
 [SP-06-131018] (0.394) sp(16692) ComputeStream(VolSpreadID)::signature is FF9D754EC09620D4512215AFFFA2D06F.
 [SP-06-131018] (0.394) sp(16692) ComputeStream(VolSpreadOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472A.
 [SP-06-131018] (0.394) sp(16692) SourceStream(VolCorrelationIn)::signature is BD5CF75F702A9E3D4EFF76A928EF1543.
-[SP-06-131018] (0.394) sp(16692) ComputeStream(VolSpreadOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472A.
-[SP-06-131018] (0.394) sp(16692) SourceStream(VolCorrelationIn)::signature is BD5CF75F702A9E3D4EFF76A928EF1543.
 [SP-06-131018] (0.396) sp(16692) ComputeStream(VolCorrelationID)::signature is FF9D754EC09620D4512215AFFFA2D06F.
 [SP-06-131018] (0.396) sp(16692) ComputeStream(VolCorrelationOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472A.
 [SP-06-131018] (0.396) sp(16692) SourceStream(VolSalvoCalibrationIn)::signature is BD5CF75F702A9E3D4EFF76A928EF1543.
-[SP-06-131018] (0.397) sp(16692) ComputeStream(VolSalvoCalibrationID)::signature is FF9D754EC09620D4512215AFFFA2D06F
-.
-[SP-06-131018] (0.398) sp(16692) ComputeStream(VolSalvoCalibrationOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472
-A.
+[SP-06-131018] (0.397) sp(16692) ComputeStream(VolSalvoCalibrationID)::signature is FF9D754EC09620D4512215AFFFA2D06F.
+[SP-06-131018] (0.398) sp(16692) ComputeStream(VolSalvoCalibrationOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472A.
 [SP-06-131018] (0.398) sp(16692) SourceStream(VolBidAskIn)::signature is BD5CF75F702A9E3D4EFF76A928EF1543.
 [SP-06-131018] (0.399) sp(16692) ComputeStream(VolBidAskID)::signature is FF9D754EC09620D4512215AFFFA2D06F.
 [SP-06-131018] (0.400) sp(16692) ComputeStream(VolBidAskOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472A.
 [SP-06-131018] (0.400) sp(16692) SourceStream(IRDiscountIn)::signature is BD5CF75F702A9E3D4EFF76A928EF1543.
 [SP-06-131018] (0.401) sp(16692) ComputeStream(IRDiscountID)::signature is FF9D754EC09620D4512215AFFFA2D06F.
 [SP-06-131018] (0.402) sp(16692) ComputeStream(IRDiscountOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472A.
-[SP-04-108019] (1828960.258) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. I
-ndex: 15.
-[SP-04-108019] (1828960.584) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. I
-ndex: 15.
-[SP-04-108019] (1828960.910) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. I
-ndex: 15.
-[SP-04-108019] (1828961.266) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. I
-ndex: 15.
-[SP-04-108019] (1828961.596) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. I
-ndex: 15.
-[SP-04-108019] (1828961.946) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. I
-ndex: 24.
-[SP-04-108019] (1828962.306) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. I
-ndex: 32.
+[SP-06-131018] (0.402) sp(16692) SourceStream(WeightsIn)::signature is BD5CF75F702A9E3D4EFF76A928EF1543.
+[SP-06-131018] (0.403) sp(16692) ComputeStream(WeightsID)::signature is FF9D754EC09620D4512215AFFFA2D06F.
+[SP-06-131018] (0.404) sp(16692) ComputeStream(WeightsOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472A.
+[SP-06-131018] (0.404) sp(16692) SourceStream(ReutersRICMapping)::signature is C316DB9004F68D6F6645B1238C881F64.
+[SP-06-131018] (0.404) sp(16692) FilterStream(ReutersRICForPricing)::signature is 2B7BE600BF3B64C5CB03F5548C4414F2.
+[SP-06-131018] (0.404) sp(16692) SourceStream(CurrencyPairPrecision)::signature is E0B0A090EDF16B7662DB27120D9F8560.
+[SP-06-131018] (0.404) sp(16692) SourceStream(FXRateIn)::signature is 5E04A916D251C3BDDAB1F45172C37A6A.
+[SP-06-131018] (0.405) sp(16692) ComputeStream(FXRateID)::signature is 65CDFE666010C241A95636E25DB29C03.
+[SP-06-131018] (0.406) sp(16692) JoinStream(FXRateAndPrecision)::signature is 76141DB7F059DDB22845B7EB1B8AFCC6.
+[SP-06-131018] (0.408) sp(16692) ComputeStream(FXRateRound)::signature is 65CDFE666010C241A95636E25DB29C03.
+[SP-06-131018] (0.409) sp(16692) AggregateStream(FXRateFilterDekey)::signature is 8A3A3DED4D1C694AD938DC1AD3C5BD8F.
+[SP-04-108019] (1828950.758) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828951.136) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828951.464) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828951.795) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828952.137) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828952.463) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828952.791) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828953.120) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828953.450) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828953.780) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828954.137) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828954.465) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828954.793) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828955.125) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828955.456) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828955.792) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828956.122) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828956.453) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828956.781) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828957.118) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828957.447) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828957.776) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828958.257) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828958.587) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828958.917) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828959.269) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828959.599) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828959.927) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828960.258) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828960.584) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828960.910) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828961.266) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828961.596) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 15.
+[SP-04-108019] (1828961.946) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 24.
+[SP-04-108019] (1828962.306) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. Index: 32.
 [SP-07-101008] (1829043.979) sp(16692) CommandControl::<various>(): entering call (login)
-[SP-05-101040] (1829043.979) sp(16692) CommandControl()::login[_key,_kerberos]()], Authentication successful for use
-r ().
+[SP-05-101040] (1829043.979) sp(16692) CommandControl()::login[_key,_kerberos]()], Authentication successful for user ().
 [SP-07-101009] (1829043.979) sp(16692) CommandControl()::<various>: returning from call (login).
 [SP-07-101008] (1829043.980) sp(16692) CommandControl::<various>(): entering call (is_big_endian)
 [SP-07-101009] (1829043.980) sp(16692) CommandControl()::<various>: returning from call (is_big_endian).
