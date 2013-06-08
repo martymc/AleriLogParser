@@ -5,8 +5,13 @@ use warnings;
 
 use DateTime;
 
-open(my $logFile, "<", "AleriLogExample.log") 
-	or die "cannot open < AleriLogExample.log: $!";
+my ($logFileName, $newLogFileName) = @ARGV;
+
+open(my $logFile, "<", $logFileName) 
+	or die "cannot open < $logFileName: $!";
+	
+open (my $newLogFile, ">", $newLogFileName)
+	or die "cannot open > $newLogFileName: $!";
 	
 my $count = 0;
 my $startTime;
@@ -48,7 +53,7 @@ while (<$logFile>)
     		my $duration = DateTime::Duration->new( seconds => $timeStamp );
     		$tempTimeStamp->add($duration);
     		
-    		print "$logTimeStamp + $timeStamp = $tempTimeStamp\n";
+    		print $newLogFile "$tempTimeStamp $_\n";
     	}
 
     }
