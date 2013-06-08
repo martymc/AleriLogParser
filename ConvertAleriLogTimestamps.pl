@@ -32,7 +32,7 @@ while (<$logFile>)
     	#print "log timestamp = $logTimeStamp\n";
     	
     }
-    elsif ($count > 16) #The first 17 lines are details regarding license etc, nothing useful..
+    elsif ($count > 15) #The first 16 lines are details regarding license etc, nothing useful..
     {
     	if ($array[1])
     	{
