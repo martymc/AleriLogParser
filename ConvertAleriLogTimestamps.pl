@@ -21,13 +21,6 @@ while (<$logFile>)
     	$startTime = $array[10] . " " . $array[11];
     	print "Log started at = $startTime\n";
     	
-    	print "year " . substr ($startTime, 0, 4) . "\n";
-    	print "month " . substr ($startTime, 5, 2) . "\n";
-    	print "day " . substr ($startTime, 8, 2) . "\n";
-    	print "hour " . substr ($startTime, 11, 2) . "\n";
-    	print "minute " . substr ($startTime, 14, 2) . "\n";
-    	print "second " . substr ($startTime, 17, 2) . "\n";
-    	
     	$logTimeStamp = DateTime->new(
     									year => substr ($startTime, 0, 4),
     									month => substr ($startTime, 5, 2),
@@ -36,7 +29,7 @@ while (<$logFile>)
     									minute => substr ($startTime, 14, 2),
     									second => substr ($startTime, 17, 2)
     								);
-    	print "log timestamp = $logTimeStamp\n";
+    	#print "log timestamp = $logTimeStamp\n";
     	
     }
     elsif ($count > 16) #The first 17 lines are details regarding license etc, nothing useful..
