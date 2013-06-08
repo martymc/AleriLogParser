@@ -43,35 +43,23 @@ while (<$logFile>)
     {
     	if ($array[1])
     	{
-    		
-    		
     		my $timeStamp = $array[1];
     		chop $timeStamp;
     		$timeStamp = substr $timeStamp, 1;
-    		my $tempTimeStamp = $logTimeStamp->new();
+    		
+    		#need to copy the values, not the reference. 
+    		#print "About to clone $logTimeStamp";
+    		my $tempTimeStamp = $logTimeStamp->clone();
+    		
+    		
     		my $duration = DateTime::Duration->new( seconds => $timeStamp );
     		$tempTimeStamp->add($duration);
     		
     		print "$logTimeStamp + $timeStamp = $tempTimeStamp\n";
-
-    		
-
-    		
-
-    		
     	}
-    	
-    
+
     }
-    
-    
-    
-    
     $count++;
-    
-    
-    
-    
     #print "$_";
 }	
 	
