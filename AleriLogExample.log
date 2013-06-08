@@ -1,0 +1,79 @@
+[SP-01-135021] (0.000) sp(16692) Platform::main() -- REVISION <26682>, start timestamp (gmt): xx
+[SP-03-100005] (0.001) sp(16692)
+Aleri Streaming Platform
+Production license issued to:
+
+xxxxxxxx xx - xxxxxxxxxx (xxxxxxxxxx)
+60 xxxxxxxx xxxxx,
+London
+UK, xxxx xxx
+Contact: xxxx.xxxx@xxxx.com, xxxx.xxxx@xxxx.com, xxxx.xxxx@xxxx.com
+
+Use of this software is subject to the license agreement between Aleri Inc. and xxxxxxxxxxx xx - xxxxxx (xx xxxx
+xx xxxx); all other use is prohibited.
+
+This Production license does not expire.
+
+[SP-01-135036] (0.001) sp(16692) Platform::main() -- Starting initialization sequence.
+[SP-06-114000] (0.036) sp(16692) Platform(ln7p4818apx)::Platform(): Created Platform.
+[SP-06-114039] (0.036) sp(16692) Platform(ln7p4818apx)::XML Model Version: 3.0
+[SP-05-120060] (0.037) sp(16692) LogStore(LogStore)::initialize() -- setting metadata checpointing at 10000 records
+[SP-05-120061] (0.037) sp(16692) LogStore(LogStore)::initialize() -- setting the reserve size at 20%.
+[SP-06-146002] (0.051) sp(16692) InputWindow::InputWindow()  built an Input Window of type: time, istream: LogMessag
+eIn, value: 172800, slack: 1.
+[SP-02-135048] (0.055) sp(16692) Platform::main() -- Platform is running without any authentication.
+[SP-06-114017] (0.388) sp(16692) Platform(ln7p4818apx)::initialize() -- initializing...
+[SP-06-131018] (0.391) sp(16692) SourceStream(VolIn)::signature is BD5CF75F702A9E3D4EFF76A928EF1543.
+[SP-06-131018] (0.392) sp(16692) ComputeStream(VolID)::signature is FF9D754EC09620D4512215AFFFA2D06F.
+[SP-06-131018] (0.393) sp(16692) ComputeStream(VolOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472A.
+[SP-06-131018] (0.393) sp(16692) SourceStream(VolSpreadIn)::signature is BD5CF75F702A9E3D4EFF76A928EF1543.
+[SP-06-131018] (0.394) sp(16692) ComputeStream(VolSpreadID)::signature is FF9D754EC09620D4512215AFFFA2D06F.
+[SP-06-131018] (0.394) sp(16692) ComputeStream(VolSpreadOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472A.
+[SP-06-131018] (0.394) sp(16692) SourceStream(VolCorrelationIn)::signature is BD5CF75F702A9E3D4EFF76A928EF1543.
+[SP-06-131018] (0.394) sp(16692) ComputeStream(VolSpreadOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472A.
+[SP-06-131018] (0.394) sp(16692) SourceStream(VolCorrelationIn)::signature is BD5CF75F702A9E3D4EFF76A928EF1543.
+[SP-06-131018] (0.396) sp(16692) ComputeStream(VolCorrelationID)::signature is FF9D754EC09620D4512215AFFFA2D06F.
+[SP-06-131018] (0.396) sp(16692) ComputeStream(VolCorrelationOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472A.
+[SP-06-131018] (0.396) sp(16692) SourceStream(VolSalvoCalibrationIn)::signature is BD5CF75F702A9E3D4EFF76A928EF1543.
+[SP-06-131018] (0.397) sp(16692) ComputeStream(VolSalvoCalibrationID)::signature is FF9D754EC09620D4512215AFFFA2D06F
+.
+[SP-06-131018] (0.398) sp(16692) ComputeStream(VolSalvoCalibrationOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472
+A.
+[SP-06-131018] (0.398) sp(16692) SourceStream(VolBidAskIn)::signature is BD5CF75F702A9E3D4EFF76A928EF1543.
+[SP-06-131018] (0.399) sp(16692) ComputeStream(VolBidAskID)::signature is FF9D754EC09620D4512215AFFFA2D06F.
+[SP-06-131018] (0.400) sp(16692) ComputeStream(VolBidAskOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472A.
+[SP-06-131018] (0.400) sp(16692) SourceStream(IRDiscountIn)::signature is BD5CF75F702A9E3D4EFF76A928EF1543.
+[SP-06-131018] (0.401) sp(16692) ComputeStream(IRDiscountID)::signature is FF9D754EC09620D4512215AFFFA2D06F.
+[SP-06-131018] (0.402) sp(16692) ComputeStream(IRDiscountOut)::signature is 9585E00F18F6FACBBE6D8BA412C9472A.
+[SP-04-108019] (1828960.258) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. I
+ndex: 15.
+[SP-04-108019] (1828960.584) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. I
+ndex: 15.
+[SP-04-108019] (1828960.910) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. I
+ndex: 15.
+[SP-04-108019] (1828961.266) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. I
+ndex: 15.
+[SP-04-108019] (1828961.596) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. I
+ndex: 15.
+[SP-04-108019] (1828961.946) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. I
+ndex: 24.
+[SP-04-108019] (1828962.306) sp(16692) GatewayClient(32661:7959)::P_doRecord() received record for unknown stream. I
+ndex: 32.
+[SP-07-101008] (1829043.979) sp(16692) CommandControl::<various>(): entering call (login)
+[SP-05-101040] (1829043.979) sp(16692) CommandControl()::login[_key,_kerberos]()], Authentication successful for use
+r ().
+[SP-07-101009] (1829043.979) sp(16692) CommandControl()::<various>: returning from call (login).
+[SP-07-101008] (1829043.980) sp(16692) CommandControl::<various>(): entering call (is_big_endian)
+[SP-07-101009] (1829043.980) sp(16692) CommandControl()::<various>: returning from call (is_big_endian).
+[SP-07-101008] (1829043.980) sp(16692) CommandControl::<various>(): entering call (get_money_precision)
+[SP-07-101009] (1829043.980) sp(16692) CommandControl()::<various>: returning from call (get_money_precision).
+[SP-07-101008] (1829043.981) sp(16692) CommandControl::<various>(): entering call (get_address_size)
+[SP-07-101009] (1829043.981) sp(16692) CommandControl()::<various>: returning from call (get_address_size).
+[SP-07-101008] (1829043.981) sp(16692) CommandControl::<various>(): entering call (get_date_size)
+[SP-07-101009] (1829043.981) sp(16692) CommandControl()::<various>: returning from call (get_date_size).
+[SP-07-101008] (1829043.988) sp(16692) CommandControl::<various>(): entering call (exit_streams)
+[SP-07-114035] (1829043.988) sp(16692) Platform()::lockExternal() -- locking
+[SP-01-114105] (1829043.988) sp(16692) Platform()::notifyRequestExit() -- Platform shutdown sequence initiated.
+[SP-06-114083] (1829043.988) sp(16692) Platform()::enableTrace() -- disabling the trace mode.
+[SP-07-114036] (1829043.988) sp(16692) Platform()::unlockExternal -- unlocking
+[SP-07-101009] (1829043.988) sp(16692) CommandControl()::<various>: returning from call (exit_streams).
